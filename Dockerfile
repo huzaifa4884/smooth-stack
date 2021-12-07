@@ -6,7 +6,7 @@ RUN yum -y install nano
 RUN yum -y install gdb
 RUN yum -y install tree
 RUN yum -y install clang
-Run yum -y install make
+RUN yum -y install make
 
 COPY .bashrc /root/.bashrc
 
