@@ -1,4 +1,12 @@
 #include<iostream>
+#include<cassert>
+
+void foo(double a , double b)
+{
+	assert((b == (a-b)));
+	std::cout<<b<<"  the value didn't change at all"<<std::endl;
+}
+
 
 int main()
 {
@@ -7,6 +15,8 @@ int main()
 	b = 1.175494e-38;
 	b = a - b;
 	std::cout<<a<<std::endl;
+
+	foo(a , b);
        	return 0;	
 }
 
