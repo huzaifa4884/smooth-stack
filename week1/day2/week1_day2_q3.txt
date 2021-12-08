@@ -1,0 +1,3 @@
+clang++ -g filename
+
+-g flag is used for debugging the C++ program

@@ -1,0 +1,5 @@
+1. The only limitation that i see in solution in Q1 is that we specified veriable types and we are asking for user input if doing Cin>> for "int a" and user gives some some character other then numerical value it crashes the program while in case of python you dont specify varible you can just staight away take input in it and it will act accordingly if input is integer variable will be of type int if input is of type string variable will be of type int and if i am talking about bash "BASH" always take input as string we just have type cast it.
+
+2. In C/C++ we allocate and deallcate memory maually while in other high level languages this is automatic or we can say that it is system controlled.
+
+3. The best thing about C++ that i can point aout is extensive support for pointers like we have total controll over memory locations which which serves good purpose is many problems.
