@@ -1,0 +1,19 @@
+I will give the example from OpenGL development environment forexample let say we want to send pixel data to precess there are two ways to do that either send the pixel data to the function one by one but that 
+approach is very slow so what they suggest in documentations is that we put out data in arrays and send all the pixel at once i this way we only have few calls
+
+but question remains we can either use "vector" or we can use "Array" as well
+
+so if i am choosing i will always go for array because
+
+1. we fill up the array once and we need fixed size like we are not invcreasing our environment hence we do not require change in array size
+2. we are dealing only with one type of data which is int
+3. Mostly we are reading from array so we are good with that
+4. when ever some environment data changes we only change some values in array that's all we need to do
+
+
+
+*********************************some other case**********************
+but in some other case where my data structure size is changing in that case i will go for vectors but they will consume alot memory to for management
+if i am using array in this case then resizing array is very expensive so vectors should do good
+
+

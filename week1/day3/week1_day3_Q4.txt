@@ -1,0 +1,12 @@
+
+*************push_back best and worst*************
+in push back we are only adding an element to the end of the vector so in worst or any case it is always O(1) push_bask() is always efficient then insert
+
+
+************insert worst case**********
+
+while in insert worst case occurs when we try to insert at the 0 index we need to move all the elements forward so we get O(N) in this case 
+
+
+**************insert best case********
+in best case of insert we are adding element at the end so we get O(1)
