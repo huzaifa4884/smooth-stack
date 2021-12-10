@@ -1,0 +1,18 @@
+assert(3 == 3.0); // this line runs fine this will pass 
+float x = 3.1;		
+assert(x == 3.1);	//this line fails on run time. if we change type of x to double then it will work or we type cast (float)3.1 then it works fine explained futhure below
+assert(3.1 == 3.1);	
+assert(true == 1.0);
+assert('a' == 97);
+int* p = 0;
+assert(NULL == p);
+assert(NULL == 0);
+
+
+
+ 
+since we know that in float we have 23 bits for fractional portion and 52 bits in double
+
+when we compare float with double after 23rd bit compiler pad the float value with 0s 
+
+so if we computer decimal value for both x and 3.0 it will be different and we get False from == 

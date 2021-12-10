@@ -1,0 +1,8 @@
+
+	int y = x+++2  this expression works as int y = (x++) + 2;
+
+	so question is why we get y = 6
+
+	precedence of ++ is more then + but still since this postfix the value of x will be updated after the excution this whole line
+
+	if we do (int y = ++x +2;) then we get y = 7 so in this case the value x is updated before anything executes in this line
