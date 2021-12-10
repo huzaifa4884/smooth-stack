@@ -1,0 +1,39 @@
+
+1. Unary + :::: y = +10
+2. Unary - :::: y = -10
+
+3. increment ++ :::: x++
+4. decrement -- :::: x--
+
+5. address operator return address of any variable &X will return address of X
+6. sizeof(eg int x) will return 4
+7. dereference operator * will return actual value at some address
+8. lgocal Not ! eg !true = false
+9. ~ 1's compliment ~x
+
+
+*********Binart operators*********
+
+1. "+" x = a + b reuires two operands
+2. "-" x = a - b retuires two operands
+3. "*" x = a * b ////////////////////
+4. "/" x = a / b ////////////////////
+5. "=" a = b    /////////////////////
+6. "%" x = a % b ////////////////////
+7. logical and "&&" True && False = False
+8. logical or  "||" True || False = True
+9. += x += 1 -> x = x+1
+10. -= x -=1 -> x = x-1
+11. *= x *= 1 -> x = x * 1
+12. /= x /= 1 -> x = x / 1
+.
+.
+.
+.
+
+****** ternary *****
+
+ result = (marks >= 40) ? "Passed : Failed";
+
+ if marks greater then or equal to 40 result will passed else fail
+ 
