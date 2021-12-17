@@ -29,11 +29,11 @@ int compute(int x , int y , char funcmask)
     switch(op)
     {
         case 1:
-            return add(x , y);
+            return (*funpt[0])(x , y);
         case 2:
-            return substract(x , y);
+            return (*funpt[1])(x , y);
         case 4:
-            return multiply(x , y);
+            return (*funpt[2])(x , y);
         default:
             std::cout<<"no valid selection made";
             return 0;
