@@ -1,0 +1,21 @@
+syntax = "proto2";
+
+package models;
+
+// defines a transaction
+message Transaction {
+	
+	enum TransactionType {
+		DEBIT=0;
+		CREDIT=1;
+	}
+	required string account=1; //account nuber		
+	required TransactionType type=2; // transaction type
+	required int32 amount=3;
+}
+
+// collection of transaction
+message Transactions {
+	// dynamic array of transactions
+	repeated Transaction transaction=1; 
+}
