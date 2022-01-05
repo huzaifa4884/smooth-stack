@@ -103,6 +103,7 @@ class Sentence
 		{
 			vsentence.clear();
 			sentence = NULL;
+			delete sentence;
 		}
 };
 
