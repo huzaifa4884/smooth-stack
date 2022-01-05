@@ -99,6 +99,11 @@ class Sentence
 		{
 			return sentence;
 		}
+		~Sentence()
+		{
+			vsentence.clear();
+			sentence = NULL;
+		}
 };
 
 int main()
